@@ -1,0 +1,21 @@
+.paragraph h1{
+    text-align: center;
+    width: 80%;
+}
+.paragraphinfo{
+    width: 970px;
+height: 336px;
+flex-shrink: 0;
+margin: auto;
+width: 80%;
+}
+.paragraphinfo p{
+    color: #000;
+
+/* 20 */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
