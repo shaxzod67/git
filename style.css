@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --Montserrat: 'Montserrat', sans-serif;
+    --White: #fff;
+    --hover_uchun: rgb(0, 140, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header {
+    background-image: url(img/header_bg_z.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+header nav {
+    max-width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: inline-block;
+    align-items: center;
+    padding: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    padding: 50px;
+    font-family: var(--Montserrat);
+    color: var(--White);
+    transition: .7s;
+}
+
+header nav ul li a:hover {
+    color: var(--hover_uchun);
+}
+
+header nav ul select {
+    background: transparent;
+    border: none;
+    color: var(--White);
+}
+
+header nav ul select option {
+    background: grey;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+header main {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 300px;
+}
+
+header main p {
+    max-width: 687px;
+    color: var(--White);
+    font-family: var(--Montserrat);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+header main button {
+    color:var(--White);
+    font-family: var(--Montserrat);
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 76px;
+    border-radius: 8px;
+    background: var(--dark-blue, #114E86);
+    border: none;
+    margin-top: 50px;
+    transition: .7s;
+}
+
+header main button:hover {
+    background: transparent;
+    color: #114E86;
+    border-radius: 8px;
+    border: 2px solid #114E86;
+}
