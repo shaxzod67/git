@@ -1,0 +1,87 @@
+footer{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    justify-content: space-between;
+}
+.aloqa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    color: #fff;
+}
+.tel{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.loc{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.loc p{
+    font-size: 12px;
+    width: 70%;
+}
+.sms{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menyu{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menyu p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.murojat{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.murojat input{
+    margin-top: 10px;
+}
+footer button{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: rgb(79, 79, 208);
+    border: none;
+    color: #fff;
+}
